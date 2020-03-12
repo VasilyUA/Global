@@ -1,0 +1,1007 @@
+.form-platform {
+	margin: 98px 0 0 85px;
+	width: 578px;
+	min-height: 458px;
+	padding: 40px 0px 0 45px;
+	.content-bloak {
+		h2 {
+			font-size: 43px;
+			color: #003fdb;
+		}
+		.text-title {
+			margin: 0 0 0 0;
+			padding: 0 0 0 6px;
+			font-size: 19px;
+		}
+	}
+	.my-form {
+		margin: 24px 0 0 0;
+		padding: 0 0 0 8px;
+		.lebel-header {
+			font-weight: 500;
+		}
+		.input-left {
+			margin: 0;
+			padding: 0 0 0 14px;
+			height: 49px;
+			width: 220px;
+			background-color: #f1f4fa;
+		}
+		.input-rigith {
+			margin: 0 0 0 8px;
+			padding: 0 0 0 14px;
+			height: 49px;
+			width: 220px;
+			background-color: #f1f4fa;
+		}
+		.input-three {
+			margin: 12px 0 0 0;
+		}
+		.lebel-rigith {
+			margin: 0 0px 0 9px;
+		}
+		.block-radio {
+			margin: 32px 0px 0 0px;
+			padding: 0 0 0 6px;
+
+			.lebel-header-radio {
+				font-weight: 600;
+				font-size: 15px;
+			}
+			.form-true {
+				margin-top: 8px;
+				padding-left: 3px;
+				span {
+					.radio-text {
+						cursor: pointer;
+						text-align: center;
+						font-size: 18px;
+					}
+				}
+				span:last-child {
+					margin-left: 52px;
+				}
+			}
+		}
+		.container-radio {
+			margin-top: 5px;
+			.form-position {
+				margin-top: 11px;
+				.wysyłka {
+					margin-left: 4px;
+				}
+				.zwroty {
+					margin-left: 25px;
+				}
+				.magazy {
+					margin-left: 28px;
+				}
+				.szkolenie {
+					margin-left: 24px;
+				}
+			}
+		}
+		.button-block {
+			.btn-Wyślij {
+				background-color: #00ff97;
+				color: #003fdb;
+				height: 63px;
+				width: 146px;
+				border-radius: 50px;
+				font-size: 22px;
+				position: relative;
+				top: 54px;
+				right: 28px;
+				outline: none;
+			}
+		}
+	}
+
+	// -----------------
+
+	input[type="radio"] {
+		position: relative;
+		width: 15px;
+		height: 15px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		outline: none;
+	}
+
+	input[type="radio"]::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #f1f4fa;
+	}
+
+	input[type="radio"]:checked::after {
+		content: "";
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background-color: #00ff97;
+		transform: translate(-50%, -50%);
+		visibility: visible;
+	}
+
+	// -----------------
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.form-platform {
+		margin: 67px 0 0 38px;
+		width: 444px;
+		min-height: 363px;
+		padding: 35px 0px 0 35px;
+		.content-bloak {
+			h2 {
+				font-size: 33px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 13px;
+			}
+		}
+		.my-form {
+			margin: 10px 0 0 0;
+			padding: 0 0 0 8px;
+			.lebel-header {
+				font-weight: 500;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 14px;
+				height: 30px;
+				width: 155px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0 0 0 8px;
+				padding: 0 0 0 14px;
+				height: 30px;
+				width: 155px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 12px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 14px 0px 0 0px;
+				padding: 0 0 0 6px;
+
+				.lebel-header-radio {
+					font-weight: 600;
+					font-size: 10px;
+				}
+				.form-true {
+					margin-top: 8px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 14px;
+						}
+					}
+					span:last-child {
+						margin-left: 52px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 5px;
+				.form-position {
+					margin-top: 11px;
+					.wysyłka {
+						margin-left: 4px;
+					}
+					.zwroty {
+						margin-left: 25px;
+					}
+					.magazy {
+						margin-left: 28px;
+					}
+					.szkolenie {
+						margin-left: 24px;
+					}
+					.lebel-block {
+						font-size: 10px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 48px;
+					width: 129px;
+					border-radius: 50px;
+					font-size: 15px;
+					position: relative;
+					top: 42px;
+					right: 28px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 15px;
+			height: 15px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}
+@media (max-width: 1000px) and (min-width: 800px) {
+	.form-platform {
+		margin: 74px 0 0 12px;
+		width: 402px;
+		min-height: 363px;
+		padding: 30px 0px 0 30px;
+		.content-bloak {
+			h2 {
+				font-size: 33px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 13px;
+			}
+		}
+		.my-form {
+			margin: 10px 0 0 0;
+			padding: 0 0 0 8px;
+			.lebel-header {
+				font-weight: 500;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 14px;
+				height: 30px;
+				width: 155px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0 0 0 8px;
+				padding: 0 0 0 14px;
+				height: 30px;
+				width: 155px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 12px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 14px 0px 0 0px;
+				padding: 0 0 0 6px;
+
+				.lebel-header-radio {
+					font-weight: 600;
+					font-size: 10px;
+				}
+				.form-true {
+					margin-top: 8px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 14px;
+						}
+					}
+					span:last-child {
+						margin-left: 52px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 5px;
+				.form-position {
+					margin-top: 11px;
+					.wysyłka {
+						margin-left: 4px;
+					}
+					.zwroty {
+						margin-left: 25px;
+					}
+					.magazy {
+						margin-left: 28px;
+					}
+					.szkolenie {
+						margin-left: 24px;
+					}
+					.lebel-block {
+						font-size: 10px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 43px;
+					width: 111px;
+					border-radius: 50px;
+					font-size: 13px;
+					position: relative;
+					top: 51px;
+					right: 28px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 15px;
+			height: 15px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}
+@media (max-width: 800px) and (min-width: 700px) {
+	.form-platform {
+		margin: 14px 0 0 0px;
+		width: 336px;
+		min-height: 248px;
+		padding: 13px 0px 0 21px;
+		.content-bloak {
+			h2 {
+				font-size: 19px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 7px;
+			}
+		}
+		.my-form {
+			margin: 7px 0 0 0;
+			padding: 0 0 0 8px;
+			.lebel-header {
+				font-weight: 500;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 10px;
+				height: 20px;
+				width: 99px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 10px;
+				height: 20px;
+				width: 99px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 12px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 14px 0px 0 0px;
+				padding: 0 0 0 6px;
+
+				.lebel-header-radio {
+					font-weight: 600;
+					font-size: 10px;
+				}
+				.form-true {
+					margin-top: 0px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 14px;
+						}
+					}
+					span:last-child {
+						margin-left: 34px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 2px;
+				.form-position {
+					margin-top: 0px;
+					.wysyłka {
+						margin-left: 4px;
+					}
+					.zwroty {
+						margin-left: 4px;
+					}
+					.magazy {
+						margin-left: 4px;
+					}
+					.szkolenie {
+						margin-left: 4px;
+					}
+					.lebel-block {
+						font-size: 10px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 33px;
+					width: 91px;
+					border-radius: 50px;
+					font-size: 13px;
+					position: relative;
+					top: 17px;
+					right: 28px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 10px;
+			height: 10px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}
+@media (max-width: 700px) and (min-width: 600px) {
+	.form-platform {
+		margin: 17px 0 0 20px;
+		width: 300px;
+		min-height: 234px;
+		padding: 21px 0px 0 29px;
+		.content-bloak {
+			h2 {
+				font-size: 25px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 10px;
+			}
+		}
+		.my-form {
+			margin: 0px 0 0 0;
+			padding: 0 0 0 6px;
+			.lebel-header {
+				font-weight: 400;
+				font-size: 14px;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 11px;
+				height: 16px;
+				width: 96px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 11px;
+				height: 16px;
+				width: 96px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 0px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 0px 0px 0 0px;
+				padding: 0 0 0 3px;
+
+				.lebel-header-radio {
+					font-weight: 500;
+					font-size: 8px;
+				}
+				.form-true {
+					margin-top: 0px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 15px;
+						}
+					}
+					span:last-child {
+						margin-left: 10px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 2px;
+				.form-position {
+					margin-top: 0px;
+					.wysyłka {
+						margin-left: 1px;
+					}
+					.zwroty {
+						margin-left: 1px;
+					}
+					.magazy {
+						margin-left: 1px;
+					}
+					.szkolenie {
+						margin-left: 1px;
+					}
+					.lebel-block {
+						font-size: 8px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 31px;
+					width: 84px;
+					border-radius: 50px;
+					font-size: 7px;
+					position: relative;
+					top: 13px;
+					right: 8px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 15px;
+			height: 15px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}
+@media (max-width: 600px) and (min-width: 400px) {
+	.form-platform {
+		margin: 4px 0 0 20px;
+		width: 185px;
+		min-height: 172px;
+		padding: 7px 0px 0 10px;
+		.content-bloak {
+			h2 {
+				font-size: 19px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 7px;
+			}
+		}
+		.my-form {
+			margin: 0px 0 0 0;
+			padding: 0 0 0 6px;
+			.lebel-header {
+				font-weight: 300;
+				font-size: 7px;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 7px;
+				height: 10px;
+				width: 54px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0 0 0 4px;
+				padding: 0 0 0 10px;
+				font-size: 7px;
+				height: 10px;
+				width: 54px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 0px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 0px 0px 0 0px;
+				padding: 0 0 0 3px;
+
+				.lebel-header-radio {
+					font-weight: 400;
+					font-size: 5px;
+				}
+				.form-true {
+					margin-top: 0px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 7px;
+						}
+					}
+					span:last-child {
+						margin-left: 10px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 2px;
+				.form-position {
+					margin-top: 0px;
+					.wysyłka {
+						margin-left: 1px;
+					}
+					.zwroty {
+						margin-left: 1px;
+					}
+					.magazy {
+						margin-left: 1px;
+					}
+					.szkolenie {
+						margin-left: 1px;
+					}
+					.lebel-block {
+						font-size: 5px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 26px;
+					width: 66px;
+					border-radius: 50px;
+					font-size: 7px;
+					position: relative;
+					top: 13px;
+					right: 8px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 7px;
+			height: 7px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}
+@media (max-width: 400px) {
+	.form-platform {
+		margin: 4px 0 0 6px;
+		width: 157px;
+		min-height: 172px;
+		padding: 7px 0px 0 9px;
+		.content-bloak {
+			h2 {
+				font-size: 19px;
+				color: #003fdb;
+			}
+			.text-title {
+				margin: 0 0 0 0;
+				padding: 0 0 0 6px;
+				font-size: 7px;
+			}
+		}
+		.my-form {
+			margin: 0px 0 0 0;
+			padding: 0 0 0 6px;
+			.lebel-header {
+				font-weight: 300;
+				font-size: 7px;
+			}
+			.input-left {
+				margin: 0;
+				padding: 0 0 0 10px;
+				font-size: 7px;
+				height: 10px;
+				width: 54px;
+				background-color: #f1f4fa;
+			}
+			.input-rigith {
+				margin: 0 0 0 4px;
+				padding: 0 0 0 10px;
+				font-size: 7px;
+				height: 10px;
+				width: 54px;
+				background-color: #f1f4fa;
+			}
+			.input-three {
+				margin: 0px 0 0 0;
+			}
+			.lebel-rigith {
+				margin: 0 0px 0 9px;
+			}
+			.block-radio {
+				margin: 0px 0px 0 0px;
+				padding: 0 0 0 3px;
+
+				.lebel-header-radio {
+					font-weight: 400;
+					font-size: 5px;
+				}
+				.form-true {
+					margin-top: 0px;
+					padding-left: 3px;
+					span {
+						.radio-text {
+							cursor: pointer;
+							text-align: center;
+							font-size: 7px;
+						}
+					}
+					span:last-child {
+						margin-left: 10px;
+					}
+				}
+			}
+			.container-radio {
+				margin-top: 2px;
+				.form-position {
+					margin-top: 0px;
+					.wysyłka {
+						margin-left: 1px;
+					}
+					.zwroty {
+						margin-left: 1px;
+					}
+					.magazy {
+						margin-left: 1px;
+					}
+					.szkolenie {
+						margin-left: 1px;
+					}
+					.lebel-block {
+						font-size: 3px;
+					}
+				}
+			}
+			.button-block {
+				.btn-Wyślij {
+					background-color: #00ff97;
+					color: #003fdb;
+					height: 26px;
+					width: 66px;
+					border-radius: 50px;
+					font-size: 7px;
+					position: relative;
+					top: 13px;
+					right: 8px;
+					outline: none;
+				}
+			}
+		}
+
+		// -----------------
+
+		input[type="radio"] {
+			position: relative;
+			width: 7px;
+			height: 7px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			outline: none;
+		}
+
+		input[type="radio"]::before {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #f1f4fa;
+		}
+
+		input[type="radio"]:checked::after {
+			content: "";
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background-color: #00ff97;
+			transform: translate(-50%, -50%);
+			visibility: visible;
+		}
+
+		// -----------------
+	}
+}

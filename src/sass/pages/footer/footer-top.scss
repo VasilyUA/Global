@@ -1,0 +1,76 @@
+.footer-top-content {
+	background-color: #00ff97;
+	height: 150px;
+	.title-top-footer {
+		margin: 53px 0 0 210px;
+		padding: 0 0 0 0;
+		h1 {
+			font-size: 30px;
+			font-weight: 400;
+			color: #003fdb;
+		}
+	}
+	.title-icon-footer {
+		margin: 52px 0 0 248px;
+		padding: 0 0 0 0;
+		h1 {
+			font-size: 30px;
+			font-weight: 400;
+			color: #003fdb;
+		}
+	}
+	.button-top-footer {
+		margin-top: 48px;
+		.facebook-top {
+			background-color: #003fdb;
+			color: #00ff97;
+			height: 50px;
+			width: 50px;
+			text-align: center;
+			border-radius: 70%;
+			padding: 0 0 0 0;
+			margin: 0;
+			cursor: pointer;
+			position: relative;
+			right: 37px;
+			.icon-facebook {
+				margin: 10px 0 0 0px;
+				font-size: 30px;
+			}
+		}
+		.linkedin-top {
+			background-color: #003fdb;
+			color: #00ff97;
+			height: 50px;
+			width: 50px;
+			text-align: center;
+			border-radius: 70%;
+			padding: 0 0 0 0;
+			margin: 0;
+			cursor: pointer;
+			position: relative;
+			right: 15px;
+			.icon-linkedin {
+				margin: 9px 0 0 0px;
+				font-size: 30px;
+			}
+		}
+		.google-top {
+			background-color: #003fdb;
+			color: #00ff97;
+			height: 50px;
+			width: 50px;
+			text-align: center;
+			border-radius: 70%;
+			padding: 0 0 0 0;
+			margin: 0;
+			cursor: pointer;
+			position: relative;
+			left: 7px;
+			.icon-google {
+				margin: 13px 0 0 0px;
+				font-size: 26px;
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+<header>
+	<div
+		class="uk-background-cover  uk-overflow-hidden uk-flex uk-flex-top bg-img"
+		style="background-image: url('img/stock-photo-156653913.png');"
+	>
+		<div class="uk-width-1-1  uk-margin-auto">
+			<button
+				class="uk-button uk-margin-small-right uk-hidden@xl uk-hidden@l uk-hidden@m uk-text-success button-navbar"
+				type="button"
+				uk-toggle="target: #offcanvas-nav"
+				uk-navbar-toggle-icon
+			></button>
+			<div class="uk-container">
+				<div class="uk-grid">
+					<div class="uk-width-1-5 logo-block-header">
+						@@include('header/logo-top.html')
+					</div>
+					<div class="uk-width-4-5 uk-margin-remove uk-padding-remove">
+						<div class="contact-top">
+							<div class="uk-grid uk-light">
+								@@include('header/contact.html')
+							</div>
+							<div class="uk-grid uk-margin-remove uk-padding-remove">
+								@@include('header/nav-bar.html')
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-grid heder-body">
+					@@include('header/left-block.html')
+					@@include('header/form-header.html')
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

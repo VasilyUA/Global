@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@import "blocks/mixin.scss";
+@import "blocks/fonts.scss";
+@import "blocks/uikit.scss";
+
+// PAGE COMPONENTS
+@import "pages/header.scss";
+@import "pages/main.scss";
+@import "pages/footer.scss";

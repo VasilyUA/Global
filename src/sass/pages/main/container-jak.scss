@@ -1,0 +1,313 @@
+@import "blocks/mixin.scss";
+.container-jak {
+	min-height: 252px;
+	.title-jek {
+		color: #003fdb;
+		font-size: 44px;
+		margin: 98px 0px 0 12px;
+	}
+	.navbar-block {
+		margin: 92px 0 0 0;
+	}
+	.navbar-block > .uk-navbar-nav > li > a {
+		min-height: 37px;
+		padding: 0 64px;
+		font-size: 15px;
+		font-weight: 600;
+		text-transform: inherit;
+		color: #608eff;
+		border-bottom: 1px solid rgba(117, 190, 218, 0);
+	}
+	.navbar-block > .uk-navbar-nav > li > a:hover {
+		min-height: 37px;
+		padding: 0 64px;
+		font-size: 15px;
+		font-weight: 600;
+		text-transform: inherit;
+		color: #003fdb;
+		border-bottom: 1px solid #003fdb;
+	}
+}
+
+@include Max_1200 {
+	.container-jak {
+		min-height: 252px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 44px;
+			margin: 98px 0px 0 12px;
+		}
+		.navbar-block {
+			margin: 92px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0 64px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0 64px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_1100 {
+	.container-jak {
+		min-height: 200px;
+
+		.title-jek {
+			color: #003fdb;
+			font-size: 40px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0px 58px;
+			font-size: 23px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0px 51px;
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_1000 {
+	.container-jak {
+		min-height: 160px;
+
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0px 51px;
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0px 51px;
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_900 {
+	.container-jak {
+		min-height: 160px;
+
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0px 37px;
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0px 37px;
+			font-size: 20px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_800 {
+	.container-jak {
+		min-height: 130px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0px 37px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0px 37px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_700 {
+	.container-jak {
+		min-height: 130px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0 24px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0 24px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_600 {
+	.container-jak {
+		min-height: 130px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0 24px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0 24px;
+			font-size: 15px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_500 {
+	.container-jak {
+		min-height: 130px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0 14px;
+			font-size: 10px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0 14px;
+			font-size: 10px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}
+@include Max_400 {
+	.container-jak {
+		min-height: 130px;
+		.title-jek {
+			color: #003fdb;
+			font-size: 28px;
+			margin: 25px 0px 0 0px;
+		}
+		.navbar-block {
+			margin: 40px 0 0 0;
+		}
+		.navbar-block > .uk-navbar-nav > li > a {
+			min-height: 37px;
+			padding: 0 5px;
+			font-size: 10px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #608eff;
+			border-bottom: 1px solid rgba(117, 190, 218, 0);
+		}
+		.navbar-block > .uk-navbar-nav > li > a:hover {
+			min-height: 37px;
+			padding: 0 5px;
+			font-size: 10px;
+			font-weight: 600;
+			text-transform: inherit;
+			color: #003fdb;
+			border-bottom: 1px solid #003fdb;
+		}
+	}
+}

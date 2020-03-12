@@ -1,0 +1,219 @@
+.container-korzysci {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 1465px;
+	.continer-title-korzysci {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		.title-korzysci {
+			margin: 119px 0 0px 13px;
+			padding: 0 0 0 0;
+			h1 {
+				font-size: 43px;
+				color: #003fdb;
+				text-transform: inherit;
+			}
+		}
+		.text-korzysci {
+			margin: 46px 0 0 27px;
+			padding: 0 0 0 0;
+			p {
+				font-size: 26px;
+			}
+		}
+	}
+	.Switcher-korzysci {
+		padding: 0 11px 0 19px;
+		margin: 112px 0 0 0;
+		.button-icon {
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+			.one-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 178px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 44px 0 0 0;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 34px 0 0 0;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+			.two-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 212px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 36px 0 0 0;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 34px 0 0 0;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+			.three-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 186px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 47px 0 0 0;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 39px 0 0 0;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+			.four-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 206px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 33px 0 0 0;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 32px 0 0 0;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+			.five-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 206px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 39px 0 0 0;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 31px 0 0 0;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+			.six-block {
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+				width: 182px;
+				height: 215px;
+				text-align: center;
+				&:hover {
+					background-color: #00ff97;
+				}
+				a {
+					.block-icon {
+						padding: 0 0 0 0;
+						margin: 37px 0 0 12px;
+					}
+					.block-text-icon {
+						padding: 0 0 0 0;
+						margin: 27px 0 0 13px;
+						span {
+							font-size: 22px;
+							font-weight: 700;
+							color: #003fdb;
+							text-transform: none;
+						}
+					}
+				}
+			}
+		}
+		.content-buton {
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+			height: 330px;
+			.content-korzyści {
+				padding: 60px 0px 0 75px;
+				h1 {
+					font-size: 43px;
+					color: #ffffff;
+					text-transform: inherit;
+				}
+				p {
+					color: #ffffff;
+					font-size: 25px;
+				}
+			}
+		}
+	}
+	.korzysci-container-button {
+		margin: 75px 0 0 0px;
+		.btn-korzysci {
+			font-size: 20px;
+			background-color: #00ff97;
+			width: 252px;
+			height: 75px;
+			outline: none;
+			border-radius: 47px;
+			color: #003fdb;
+			cursor: pointer;
+		}
+	}
+}

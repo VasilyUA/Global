@@ -1,0 +1,5 @@
+main {
+	min-height: calc(100vh - 80px);
+}
+@import "./footer/footer-top.scss";
+@import "./footer/footer-body.scss";

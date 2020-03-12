@@ -1,0 +1,27 @@
+.container-blog {
+	height: 865px;
+	.title-blog {
+		margin: 64px 0px 0 18px;
+		text-align: center;
+		h1 {
+			color: #003fdb;
+		}
+	}
+	.my-cards {
+		margin: 81px 0px 0 0px;
+		padding: 0 0 0 0px;
+	}
+	.blog-container-button {
+		margin: 23px 0 0 0px;
+		.btn-blog {
+			font-size: 20px;
+			background-color: #00ff97;
+			width: 288px;
+			height: 79px;
+			outline: none;
+			border-radius: 47px;
+			color: #003fdb;
+			cursor: pointer;
+		}
+	}
+}
