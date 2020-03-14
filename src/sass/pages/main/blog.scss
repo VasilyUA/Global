@@ -1,3 +1,5 @@
+@import "blocks/mixin";
+
 .container-blog {
 	height: 865px;
 	.title-blog {
@@ -22,6 +24,297 @@
 			border-radius: 47px;
 			color: #003fdb;
 			cursor: pointer;
+		}
+	}
+}
+
+@include Max_1200 {
+	.container-blog {
+		height: 900px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 80px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_1100 {
+	.container-blog {
+		height: 900px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 80px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_1000 {
+	.container-blog {
+		height: 900px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 80px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_900 {
+	.container-blog {
+		height: 900px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 80px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_800 {
+	.container-blog {
+		height: 920px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 80px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@media screen and (max-width: 700px) and (min-width: 639px) {
+	.container-blog {
+		height: 865px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 20px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@media screen and (max-width: 638px) and (min-width: 600px) {
+	.container-blog {
+		height: 1630px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 20px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_600 {
+	.container-blog {
+		height: 1630px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 20px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_500 {
+	.container-blog {
+		height: 1630px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 20px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@include Max_400 {
+	.container-blog {
+		height: 1630px;
+		.title-blog {
+			margin: 64px 0px 0 18px;
+			text-align: center;
+			h1 {
+				color: #003fdb;
+			}
+		}
+		.my-cards {
+			margin: 81px 0px 0 0px;
+			padding: 0 0 0 0px;
+		}
+		.blog-container-button {
+			margin: 20px 0 0 0px;
+			.btn-blog {
+				font-size: 10px;
+				background-color: #00ff97;
+				width: 150px;
+				height: 37px;
+				outline: none;
+				border-radius: 47px;
+				color: #003fdb;
+				cursor: pointer;
+			}
 		}
 	}
 }

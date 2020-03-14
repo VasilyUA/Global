@@ -1,3 +1,4 @@
+@import "blocks/mixin";
 .bg-footer {
 	background-color: #003fdb;
 	height: 660px;
@@ -193,6 +194,1902 @@
 					font-size: 18px;
 					right: 15px;
 					position: relative;
+				}
+			}
+		}
+	}
+}
+
+@include Max_1200 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 380px;
+		.logo-bottom {
+			margin: 35px 0 0 15px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 20px 0 0 0;
+			h3 {
+				font-size: 15px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 10px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 10px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 80px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 15px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 10px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 10px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 15px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 8px 0 0px 11px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 8px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 8px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 10px;
+			}
+		}
+		//----------------
+		.title-form-footer {
+			margin: 35px 0 0 70px;
+			h1 {
+				color: #00ff97;
+				font-size: 25px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 400px;
+			.form-body-footer {
+				margin: 10px 0 0 70px;
+				.form-one {
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 5px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 60px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 15px 0 0 0px;
+					.buton-footer {
+						width: 105px;
+						height: 35px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 15px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_1100 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 375px;
+		.logo-bottom {
+			margin: 35px 0 0 15px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 20px 0 0 0;
+			h3 {
+				font-size: 15px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 10px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 10px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 80px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 15px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 10px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 10px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 15px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 8px 0 0px 11px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 8px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 35px;
+				height: 35px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 8px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 20px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 10px;
+			}
+		}
+		//----------------
+		.title-form-footer {
+			margin: 35px 0 0 70px;
+			h1 {
+				color: #00ff97;
+				font-size: 25px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 340px;
+			.form-body-footer {
+				margin: 10px 0 0 70px;
+				.form-one {
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 5px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 60px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 15px 0 0 0px;
+					.buton-footer {
+						width: 105px;
+						height: 35px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 15px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_1000 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 355px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 15px 0 0 0;
+			h3 {
+				font-size: 15px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 10px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 10px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 60px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 15px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 10px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 10px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 15px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 10px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 70px;
+			h1 {
+				color: #00ff97;
+				font-size: 20px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 340px;
+			.form-body-footer {
+				margin: 10px 0 0 70px;
+				.form-one {
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 5px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 60px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 105px;
+						height: 35px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 15px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_900 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 355px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 15px 0 0 0;
+			h3 {
+				font-size: 15px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 10px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 10px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 60px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 15px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 10px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 10px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 15px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 10px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 70px;
+			h1 {
+				color: #00ff97;
+				font-size: 20px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 340px;
+			.form-body-footer {
+				margin: 10px 0 0 70px;
+				.form-one {
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 5px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 60px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 105px;
+						height: 35px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 15px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_800 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 280px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 15px 0 0 0;
+			h3 {
+				font-size: 10px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 8px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 8px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 57px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 10px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 7px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 7px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 0px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 8px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 50px;
+			h1 {
+				color: #00ff97;
+				font-size: 9px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 290px;
+			.form-body-footer {
+				margin: 0px 0 0 50px;
+				.form-one {
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 25px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 25px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 10px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 40px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 72px;
+						height: 35px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 10px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_700 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 280px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 15px 0 0 0;
+			h3 {
+				font-size: 10px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 8px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 8px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 57px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 10px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 7px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 7px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 0px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 8px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 50px;
+			h1 {
+				color: #00ff97;
+				font-size: 9px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 240px;
+			.form-body-footer {
+				margin: 0px 0 0 50px;
+				.form-one {
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 60px;
+						height: 30px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 7px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 35px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_600 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 280px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 10px 0 0 0;
+			h3 {
+				font-size: 6px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 5px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 5px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 53px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 6px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 5px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 13px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+						font-size: 5px;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 10px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 8px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 0px;
+			h1 {
+				color: #00ff97;
+				font-size: 9px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 200px;
+			.form-body-footer {
+				margin: 0px 0 0 0px;
+				.form-one {
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 60px;
+						height: 30px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 7px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 35px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_500 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 280px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 10px 0 0 0;
+			h3 {
+				font-size: 6px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 5px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 5px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 53px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 6px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 5px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 13px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+						font-size: 5px;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 10px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 8px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 0px;
+			h1 {
+				color: #00ff97;
+				font-size: 9px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 160px;
+			.form-body-footer {
+				margin: 0px 0 0 0px;
+				.form-one {
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 60px;
+						height: 30px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 7px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 35px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@include Max_400 {
+	.bg-footer {
+		background-color: #003fdb;
+		height: 280px;
+		.logo-bottom {
+			margin: 18px 0 0 14px;
+			padding: 0 0 0 0;
+			.logo-footer {
+				margin: 0 0 0 1px;
+				padding: 0 0 0 0;
+			}
+		}
+		.text-logo {
+			margin: 10px 0 0 0;
+			h3 {
+				font-size: 6px;
+				margin: 0px 0 0 20px;
+				color: white;
+			}
+			.text-adress {
+				margin: 5px 0 0 19px;
+				padding: 0 0 0 0;
+				p {
+					color: #8baaf7;
+					padding: 0px 0 0 0px;
+					font-size: 5px;
+					margin: 0;
+				}
+			}
+			.contact-footer {
+				margin: 15px 0 0 14px;
+				p {
+					color: #8baaf7;
+					margin: 0;
+					font-size: 5px;
+					padding: 0;
+				}
+			}
+		}
+		.nav-footer {
+			.title-nav {
+				margin: 53px 0px 0 13px;
+				h4 {
+					color: wheat;
+					font-size: 6px;
+					margin: 0 0 4px 0;
+				}
+			}
+			.navbar {
+				margin: 6px 0 0 20px;
+				padding: 0 0 0 0;
+				.nav-level > li > a {
+					padding: 0px 0;
+					font-size: 5px;
+					font-weight: 600;
+					color: #8baaf7;
+				}
+				.nav-level > li > ul {
+					padding: 0px 0 0px 10px;
+					font-size: 13px;
+					line-height: 0.9em;
+					li > a {
+						font-weight: 600;
+						line-height: 0.9em;
+						color: #8baaf7;
+						font-size: 5px;
+					}
+				}
+			}
+		}
+		.button-bottom-footer {
+			margin: 10px 0 0 45px;
+			padding: 0 0px 0 0px;
+			.facebook-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-facebook {
+					text-align: center;
+					padding: 0px 0 0px 8px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.linkedin-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				left: 12px;
+				.bottom-linkedin {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+			.google-bottom {
+				background-color: #00ff97;
+				width: 25px;
+				height: 25px;
+				border-radius: 70%;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				position: relative;
+				right: 0px;
+				.bottom-youtube {
+					text-align: center;
+					padding: 0px 0 0px 6px;
+					margin: 0 0 0 0;
+					font-size: 15px;
+					color: #003fdb;
+				}
+			}
+		}
+		.text {
+			margin: 4px 0 0 14px;
+			span {
+				font-size: 8px;
+			}
+		}
+		.title-form-footer {
+			margin: 23px 0 0 0px;
+			h1 {
+				color: #00ff97;
+				font-size: 9px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+		.form-footer {
+			width: 130px;
+			.form-body-footer {
+				margin: 0px 0 0 0px;
+				.form-one {
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-two {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.input-footer {
+						width: 100%;
+						height: 15px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.form-container {
+					margin: 0px 0 0 0;
+					.text-form {
+						font-size: 7px;
+						color: wheat;
+					}
+					.textarea-footer {
+						width: 100%;
+						height: 30px;
+						padding: 0 0 0 12px;
+						font-size: 10px;
+						background-color: #487dff;
+						color: #aec5fe;
+					}
+				}
+				.block-buttons {
+					margin: 10px 0 0 0px;
+					.buton-footer {
+						width: 60px;
+						height: 30px;
+						background-color: #00ff97;
+						border-radius: 50px;
+						color: #003fdb;
+						font-size: 7px;
+						right: 0px;
+						left: 15px;
+						position: relative;
+						padding: 0 0 35px 0px;
+					}
 				}
 			}
 		}
