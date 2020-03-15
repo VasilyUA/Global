@@ -639,7 +639,6 @@
 		}
 	}
 }
-
 @include Max_500 {
 	.footer-top-content {
 		background-color: #00ff97;
@@ -717,7 +716,6 @@
 		}
 	}
 }
-
 @include Max_400 {
 	.footer-top-content {
 		background-color: #00ff97;
@@ -726,16 +724,16 @@
 			margin: 28px 0 0 7px;
 			padding: 0 0 0 0;
 			h1 {
-				font-size: 8px;
+				font-size: 7px;
 				font-weight: 400;
 				color: #003fdb;
 			}
 		}
 		.title-icon-footer {
-			margin: 28px 0 0 7px;
+			margin: 28px 0 0 0px;
 			padding: 0 0 0 0;
 			h1 {
-				font-size: 8px;
+				font-size: 7px;
 				font-weight: 400;
 				color: #003fdb;
 			}
