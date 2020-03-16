@@ -45,15 +45,19 @@
 
 	<div id="offcanvas-nav" uk-offcanvas="overlay: true">
 		<div class="uk-offcanvas-bar">
-			<ul class="uk-nav uk-nav-center">
+			<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
 				<li>
 					<a class="uk-text-success" href="#">Wysylki zagraniczne</a>
 				</li>
 				<li>
 					<a class="uk-text-success" href="#">Zwroty</a>
 				</li>
-				<li>
+				<li class="uk-parent">
 					<a class="uk-text-success" href="#">Magazynowanie</a>
+					<ul class="uk-nav-sub">
+						<li><a class="uk-text-success" href="#">Sub item</a></li>
+						<li><a class="uk-text-success" href="#">Sub item</a></li>
+					</ul>
 				</li>
 				<li>
 					<a class="uk-text-success" href="#">Szkolenia</a>
